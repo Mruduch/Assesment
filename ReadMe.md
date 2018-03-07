@@ -1,2 +1,15 @@
-# Assesment
-In this assesment i have created a project using Selenium Webdriver with Java Eclipse which will create test scenarios for the given assesment.
+# Test requirement: Automate the Search strings on the given website
+# Prerequisites
+Selenium webdriver version 
+Java version
+Eclipse version
+Google Chrome version
+
+# Test scenarios
+# Scenario1: Search 
+
+# Scenario2: Search
+
+# Scenario3: Search
+
+# Expected results
