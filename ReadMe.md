@@ -11,7 +11,7 @@ Google Chrome version: 64
 GIVEN Automate program to open a link and search for Risk Management
 When I create a project and a class write a automate program starting with setproperty Method and copy Chromedriver path in it
 AND write Webdriver method and import chromedriver and webdriver methods in it.
-THEN write driver.get method to open link and serach for wenElement Id in search button
+THEN write driver.get method to open link and search for webElement Id in search button
 THEN Webpage www.sword-activeversion should be opened and searched succesfully for the string RiskManagement. 
 
 # Scenario2: Succesfully searched for the string Leverage
