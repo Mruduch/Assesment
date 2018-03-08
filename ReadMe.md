@@ -17,10 +17,6 @@ WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string Risk Management
 THEN the website searches the matching words and links for it
 
-# Actual results
- I got all the results and links which matches the  string  RiskManagement.
-
-
 
 # Scenario2: Succesfully searched for the string Leverage
 GIVEN  search  string Leverage
@@ -28,15 +24,9 @@ WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string LEVERAGE 
 THEN the website searches the matching words and links for it
 
-# Actual results
- I am able to see all the results and links  that matches the string Leverage.
-
 
 # Scenario3: 
 GIVEN  search string Compatibility
 WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string Compatibility 
 THEN the website searches the matching words and links for it
-
-# Actual results
-Sorry no results found please try again.
