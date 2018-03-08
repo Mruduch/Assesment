@@ -25,7 +25,7 @@ AND search for string LEVERAGE
 THEN the website searches the matching words and links for it
 
 
-# Scenario3: 
+# Scenario3: Unable to find macthing word with Compatibility
 GIVEN  search string Compatibility
 WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string Compatibility 
