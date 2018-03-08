@@ -11,15 +11,14 @@ Eclipse version: Oxygen.2 Release (4.7.2)
 Google Chrome version: 64
 
 # Test scenarios 
-# Step 1
-# Scenario Outline:  search for the word RiskManagement
+# Scenario 1:  search for the word RiskManagement
 GIVEN  search  string Risk Management
 WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string Risk Management
 THEN the website searches the matching words and links for it
 
 # Actual results
- I got all the result which matches the given string i.e RiskManagement.
+ I got all the results and links which matches the  string  RiskManagement.
 
 
 
@@ -30,7 +29,7 @@ AND search for string LEVERAGE
 THEN the website searches the matching words and links for it
 
 # Actual results
- I am able to see the links and words that matches the string Leverage.
+ I am able to see all the results and links  that matches the string Leverage.
 
 
 # Scenario3: 
