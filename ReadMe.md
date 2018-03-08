@@ -1,25 +1,43 @@
-# Test requirement: 
-Automate the Search strings on the given website
+# Feature: 
+Automate the Search strings on the given website. Here we will search for few strings on given website
+
+# Background
+Given search strings and the website to search for.
+
 # Prerequisites
 Selenium Java version: 3.9.1
 Java version: SE-1.8
 Eclipse version: Oxygen.2 Release (4.7.2)
 Google Chrome version: 64
 
-# Test scenarios
-# Scenario1: Successfully searched for the word Risk Management.
-GIVEN Automate program to open a link and search for Risk Management
-When I create a project and a class write a automate program starting with setproperty Method and copy Chromedriver path in it
-AND write Webdriver method and import chromedriver and webdriver methods in it.
-THEN write driver.get method to open link and search for webElement Id in search button
-THEN Webpage www.sword-activeversion should be opened and searched succesfully for the string RiskManagement. 
+# Test scenarios 
+# Step 1
+# Scenario Outline:  search for the word RiskManagement
+GIVEN  search  string Risk Management
+WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
+AND search for string Risk Management
+THEN the website searches the matching words and links for it
+
+# Actual results
+ I got all the result which matches the given string i.e RiskManagement.
+
+
 
 # Scenario2: Succesfully searched for the string Leverage
-GIVEN Automate to open link and search for string Leverage
-open link www.sword-activeversion and search for the string Leverage
+GIVEN  search  string Leverage
+WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
+AND search for string LEVERAGE 
+THEN the website searches the matching words and links for it
+
+# Actual results
+ I am able to see the links and words that matches the string Leverage.
+
 
 # Scenario3: 
-open link www.sword-activeversion and search for the string Compatibility
+GIVEN  search string Compatibility
+WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
+AND search for string Compatibility 
+THEN the website searches the matching words and links for it
 
-# Expected results
-For the 3 scenarios the search should appear with relevant names.
+# Actual results
+Sorry no results found please try again.
