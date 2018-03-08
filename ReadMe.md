@@ -15,18 +15,18 @@ Google Chrome version: 64
 GIVEN  search  string Risk Management
 WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string Risk Management
-THEN the website searches the matching words and links for it
+THEN the website searches the matching words and Textlinks for it
 
 
 # Scenario2: Succesfully searched for the string Leverage
 GIVEN  search  string Leverage
 WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string LEVERAGE 
-THEN the website searches the matching words and links for it
+THEN the website searches the matching words and Textlinks for it
 
 
-# Scenario3: Unable to find macthing word with Compatibility
+# Scenario3: There are no words or Textlinks that matches for the string Compatibility
 GIVEN  search string Compatibility
 WHEN I write a testcase and run it opens browser to URL: www.sword-Activeversion
 AND search for string Compatibility 
-THEN the website searches the matching words and links for it
+THEN the website searches the matching words and Textlinks for it
