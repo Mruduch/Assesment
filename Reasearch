@@ -7,7 +7,8 @@ able to perform it with the help of google search.
 In Eclipse I have created share project and created a path with Git, then I have done a Remote Push from eclipse to github and I am able 
 to see my project online On Github.
 
-BDD: Behaviour driven developement is a process that is emerged from TDD i.e Test Driven Developement. BDD is which an application is
+BDD: Behaviour driven developement is a process that is emerged from TDD i.e Test Driven Developement these are the software developement
+methods which can be used in any methodology escpecially like Agile. BDD is which an application is
 specified and designed by describing how its behavior should appear to an outside observer in simple terms using GIVEN, AND, WHEN,THEN..
 I have done a reasearch of how it works and  makes easy to create and execute test cases using selenium cucumber in BDD format which is 
 pretty interesting and also easy to understand in simple steps.
