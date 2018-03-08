@@ -2,7 +2,7 @@
 Automate the Search strings on the given website. Here we will search for few strings on given website
 
 # Background
-Given search strings and the website to search for.
+Given search strings and the website to search for
 
 # Prerequisites
 Selenium Java version: 3.9.1
